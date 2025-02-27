@@ -18,8 +18,8 @@ app.add_middleware(
 )
 
 # Spotify API Credentials
-SPOTIFY_CLIENT_ID = "c632942896d44382a0e0d7e54a5b3ca9"
-SPOTIFY_CLIENT_SECRET = "7eb2d6b0f4ea4e90bf5e059a50073e49"
+SPOTIFY_CLIENT_ID = ""
+SPOTIFY_CLIENT_SECRET = ""
 REDIRECT_URI = "http://localhost:3000/callback"
 
 # Global variable to store the access token
