@@ -1,0 +1,4 @@
+<key>NSHealthShareUsageDescription</key>
+<string>This app requires access to your Health data to recommend songs based on your activity.</string>
+<key>NSHealthUpdateUsageDescription</key>
+<string>This app needs to read your heart rate to recommend songs.</string>

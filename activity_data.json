@@ -1,0 +1,7 @@
+[
+    {"timestamp": "2025-01-15T08:00:00", "activity": "sitting", "steps": 0, "heart_rate": 60},
+    {"timestamp": "2025-01-15T08:30:00", "activity": "walking", "steps": 500, "heart_rate": 85},
+    {"timestamp": "2025-01-15T09:00:00", "activity": "running", "steps": 1500, "heart_rate": 120},
+    {"timestamp": "2025-01-15T09:30:00", "activity": "sitting", "steps": 0, "heart_rate": 65}
+]
+

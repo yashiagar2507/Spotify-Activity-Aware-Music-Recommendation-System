@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ffffff, #f4f4f4);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.app-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1db954;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+  background-color: #1db954;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #14833b;
+}
+
+.fetch-btn, .make-playlist-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.fetch-btn:hover, .make-playlist-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Form */
+.form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Checkbox */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.checkbox-container input {
+  margin-right: 8px;
+}
+
+/* Recommendations */
+.recommendations {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Song List */
+.song-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.song-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.song-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.song-info .details {
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+}
